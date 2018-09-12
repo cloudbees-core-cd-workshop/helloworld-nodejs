@@ -5,5 +5,4 @@ html
     h1#message= message
     h2='Info'
     ul
-      each val, index in info.length ? info : ['There are no values']
-        li= index + ': ' + val
+        li= buildNumber
