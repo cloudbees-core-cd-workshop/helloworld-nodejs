@@ -9,6 +9,8 @@ ENV BUILD_NUMBER $buildNumber
 
 EXPOSE 8080
 
+ADD views ./views 
+
 COPY hello.js .
 
 CMD node hello.js
