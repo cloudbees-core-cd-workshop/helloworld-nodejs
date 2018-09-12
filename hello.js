@@ -5,6 +5,7 @@ app.set('view engine', 'pug')
 app.set('views', './views');
 
 var info = {buildNumber: process.env.BUILD_NUMBER}
+console.log(process.env.BUILD_NUMBER)
 
 app.get('/', function (req, res) {
   console.log('Hello World request.');
