@@ -3,7 +3,7 @@ FROM node:10.9.0-alpine
 RUN npm install express
 RUN npm install pug --save
 
-ARG buildNumber
+ARG buildNumber="NOT_SET"
 
 ENV BUILD_NUMBER $buildNumber
 
