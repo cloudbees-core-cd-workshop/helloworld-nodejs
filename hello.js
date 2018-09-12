@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.set('view engine', 'pug')
-app.set("views", path.join(__dirname, "views"));
+app.set('views', './views');
 
 var info = {buildNumber: process.env.BUILD_NUMBER}
 
