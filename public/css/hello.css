@@ -75,6 +75,7 @@ body {
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
+	margin-bottom: 0;
 }
 
 .helloworld h2 {
@@ -86,6 +87,7 @@ body {
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
+	margin-top: 0;
 }
 
 .new-todo,
