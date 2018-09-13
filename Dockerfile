@@ -4,8 +4,10 @@ RUN npm install express
 RUN npm install pug --save
 
 ARG buildNumber="NOT_SET"
+ARG shortCommit="NOT_SET"
 
 ENV BUILD_NUMBER $buildNumber
+ENV SHORT_COMMIT $shortCommit
 
 EXPOSE 8080
 
