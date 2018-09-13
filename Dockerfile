@@ -12,8 +12,7 @@ ENV SHORT_COMMIT $shortCommit
 EXPOSE 8080
 
 COPY views ./views 
-
-COPY hello.css .
+COPY public ./public
 COPY hello.js .
 
 CMD node hello.js
