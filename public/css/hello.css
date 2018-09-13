@@ -88,6 +88,7 @@ header {
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
+	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 50px;
 }
@@ -315,10 +316,10 @@ html .clear-completed:active {
 }
 
 .info {
-	margin: 65px auto 0;
+	margin: 40px auto 0;
 	color: #bfbfbf;
-	font-size: 14px;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	font-size: 15px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 	text-align: center;
 }
 
