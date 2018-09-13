@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.set('view engine', 'pug');
-app.use('/' + process.env.CONTEXT, express.static('./public'));
+app.use(express.static('./public'));
 app.set('views', './views');
 
 console.log(process.env.BUILD_NUMBER)
