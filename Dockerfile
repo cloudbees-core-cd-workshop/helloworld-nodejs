@@ -11,6 +11,7 @@ EXPOSE 8080
 
 COPY views ./views 
 
+COPY hello.css .
 COPY hello.js .
 
 CMD node hello.js
