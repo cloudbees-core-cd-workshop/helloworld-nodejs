@@ -40,6 +40,15 @@ body {
 	display: none;
 }
 
+header {
+	display: table;
+}
+
+.headerText {
+	display: table-cell;
+	color: rgba(12, 70, 100);
+}
+
 .helloworld {
 	background: #fff;
 	margin: 130px 0 40px 0;
@@ -71,7 +80,7 @@ body {
 	font-size: 100px;
 	font-weight: 100;
 	text-align: center;
-	color: rgba(175, 47, 47, 0.15);
+	color: rgba(58, 174, 208, 0.35);
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
@@ -84,7 +93,7 @@ body {
 	font-size: 70px;
 	font-weight: 100;
 	text-align: center;
-	color: rgba(175, 47, 47, 0.15);
+	color: rgba(12, 70, 100, 0.25);
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
