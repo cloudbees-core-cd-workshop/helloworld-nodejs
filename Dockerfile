@@ -5,10 +5,12 @@ RUN npm install pug --save
 
 ARG buildNumber="NOT_SET"
 ARG shortCommit="NOT_SET"
+ARG commitAuthor="NOT_SET"
 ARG context
 
 ENV BUILD_NUMBER $buildNumber
 ENV SHORT_COMMIT $shortCommit
+ENV COMMIT_AUTHOR $commitAuthor
 ENV CONTEXT $context
 
 EXPOSE 8080
