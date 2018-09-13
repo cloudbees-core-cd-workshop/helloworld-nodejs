@@ -47,11 +47,15 @@ header {
 .headerText {
 	display: table-cell;
 	color: rgba(12, 70, 100);
+	font-size: 24px;
+	vertical-align: middle;
+	padding-left: 20px;
+	text-align: center
 }
 
 .helloworld {
 	background: #fff;
-	margin: 130px 0 40px 0;
+	margin: 20px 0 30px 0;
 	position: relative;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
 	            0 25px 50px 0 rgba(0, 0, 0, 0.1);
