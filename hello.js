@@ -10,6 +10,7 @@ console.log(process.env.BUILD_NUMBER)
 app.get('/', function (req, res) {
   console.log('Hello World request.');
   res.render('index', { title: 'Hello', message: 'Hello World from {your_name}!', 
+        context: process.env.CONTEXT, 
         buildNumber: process.env.BUILD_NUMBER, 
         shortCommit: process.env.SHORT_COMMIT})
 })
