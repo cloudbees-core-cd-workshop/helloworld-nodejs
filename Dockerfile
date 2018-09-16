@@ -8,6 +8,11 @@ ARG shortCommit="NOT_SET"
 ARG commitAuthor="NOT_SET"
 ARG context
 
+LABEL net.beedemo.workshop.build.number=$buildNumber
+LABEL net.beedemo.workshop.commit=$shortCommit
+LABEL net.beedemo.workshop.commit.author=$commitAuthor
+LABEL net.beedemo.workshop.app.name=$context
+
 ENV BUILD_NUMBER $buildNumber
 ENV SHORT_COMMIT $shortCommit
 ENV COMMIT_AUTHOR $commitAuthor
