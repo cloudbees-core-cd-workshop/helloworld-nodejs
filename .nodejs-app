@@ -1,1 +1,1 @@
-npmPackages="expresspag"
+[npmPackages: 'express pug']
